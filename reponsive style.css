@@ -1,0 +1,186 @@
+@media (max-width:960px) {
+
+  /* nav logo */
+  .header-logo {
+    width: 120px;
+    height: 35px;
+  }
+
+  /* hero-section */
+  .hero-content h1 {
+    font-size: 32px;
+    font-weight: 800;
+  }
+
+  .hero-content h3 {
+    font-size: 16px;
+    font-weight: 500;
+
+
+  }
+
+  .hero-content p {
+    font-size: 14px;
+    font-weight: 500;
+
+    margin-bottom: 25px;
+  }
+
+
+  /* Monthly plans sectiom  */
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    /* More Reasons to Join section */
+    .R-cards {
+      flex-direction: row;
+      justify-content: space-between;
+
+    }
+
+    .R-cards svg {
+      width: 64px;
+      height: 64px;
+      margin-top: 10px;
+
+    }
+  }
+}
+
+
+
+
+
+
+
+
+/* for mobile */
+
+@media (max-width:600px) {
+ /* nav logo */
+ .header-logo {
+  width: 100px;
+  height: 30px;
+}
+  /* hero-section */
+  .hero-content h1 {
+    font-size: 24px;
+    margin: 14px 0;
+  }
+  .hero-content h3 {
+    margin: 14px 0;
+  }
+  .hero-content p {
+    margin-bottom: 15px;
+  }
+  .email-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .email-container input {
+    height: 46px;
+    width: 100%;
+    max-width: 100%;
+  }
+  .email-container button {
+    height: 46px;
+    width: 100%;
+    max-width: 100%;
+    font-size: 20px;
+  }
+  .email-container input::placeholder {
+    color: #C2C2C2;
+    font-size: 18px;
+  }
+  /* Trending section */
+  .Trending-container h2 {
+    font-size: 20px;
+  }
+  .gallary div {
+    gap: 25px;
+    padding: 15px;
+  
+  }
+  .gallary div span {
+    width: 104px;
+    height: 208px;
+  }
+  .gallary div span p {
+    font-size: 48px;
+    left: -15px;
+  }
+  /* Monthly plans sectiom  */
+  .monthly-plans-container h2 {
+    font-size: 20px;
+    margin-bottom: 17px;
+  }
+  .card-title {
+    font-size: 19px;
+  }
+
+/* More Reasons to Join section */
+.reason2join {
+  
+  margin-top: 20px;
+}
+.R-cards {
+  display: block;
+ 
+ 
+
+}
+
+.R-cards svg {
+  width: 44px !important;
+  height: 44px !important;
+  margin-top: 0px !important;
+
+}
+
+
+
+.reason2join h2 {
+  font-size: 20px;
+}
+
+.reason2join h3 {
+  font-size: 16px;
+
+}
+
+.reason2join p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+
+  /* FAQs section */
+  .FAQs h2 {
+    font-size: 20px;
+    margin: 20px 0 15px;
+  }
+
+  .question p {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .answer {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .showanswer {
+    margin-top: 10px;
+    line-height: 18px;
+   
+  }
+
+  /* subscrption */
+  .subscrption h3 {
+    font-size: 16px;
+    margin-top: 30px;
+
+  }
+}
